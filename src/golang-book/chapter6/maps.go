@@ -20,4 +20,17 @@ func main() {
 	}
 
 	fmt.Println(y["firstName"])
+
+	z := map[string]map[string]string{
+		"Sarah": {
+			"surname": "Akinkunmi",
+			"age":     "Twenty-one",
+		},
+		"Priscilla": {
+			"surname": "Akinkunmi",
+			"age":     "Twenty-three",
+		},
+	}
+
+	fmt.Println(z["Priscilla"]["age"])
 }
